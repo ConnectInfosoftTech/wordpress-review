@@ -1,0 +1,116 @@
+@charset "UTF-8";
+
+/*-----------------------------------------------------------------------------------*/
+/*	resets
+/*-----------------------------------------------------------------------------------*/
+
+
+/*-----------------------------------------------------------------------------------*/
+/*	examples
+/*-----------------------------------------------------------------------------------*/
+	
+.example {
+	padding:0 0 2px;
+	position:relative;
+	text-align:left;
+}
+
+.example .default {
+	display:inline-block;
+	margin-right:25px;
+	z-index:99999;
+	position:absolute;
+}
+
+.example .default1 {
+	display:inline-block;
+	margin-right:25px;
+	z-index:99999;
+	
+	clear:both;
+
+}
+.example .default2 {
+	display:inline-block;
+	margin-right:25px;
+	z-index:99999;
+
+}
+
+.example .default3 {
+	display:inline-block;
+	margin-right:25px;
+	z-index:99999;
+	
+}
+
+.example .default4 {
+	display:inline-block;
+	margin-right:25px;
+	z-index:99999;
+
+}
+
+.example .default5 {
+	display:inline-block;
+	margin-right:25px;
+	z-index:99999;
+
+}
+
+.output {
+	position:absolute;
+	z-index:55555;
+	top:80px;
+	left:652px;
+	box-shadow:0 0 0 100000px rgba(255,255,255,0.9);
+}
+
+.newupload {
+    background: none repeat scroll 0 0 #ffffff;
+    border: 3px dashed rgba(0, 0, 0, 0.04);
+    border-radius: 7px;
+    box-sizing: border-box;
+    cursor: pointer;
+    display: block;
+    font-family: arial;
+    margin-bottom: 15px;
+    margin-left: 94px;
+    margin-top: 19px;
+    text-align: center;
+    width: 167px;
+    color :#000000;
+}
+.newupload:hover {
+  background: none repeat scroll 0 0 #ffffff;
+    border: 3px dashed rgba(0, 0, 0, 0.04);
+    border-radius: 7px;
+    box-sizing: border-box;
+    cursor: pointer;
+    display: block;
+    font-family: arial;
+    margin-bottom: 15px;
+    margin-left: 94px;
+    margin-top: 19px;
+    text-align: center;
+    width: 167px;
+    color :#000000;
+}
+
+#uploadfile { display:none }
+#example1{ position:relative; float:left; padding:10px 0;}
+
+#example1 #default1{ position:relative; left:inherit; top:inherit; margin:0;}
+.cropbutton {background: none repeat scroll 0 0 #4672C8;
+    border: 3px dashed rgba(0, 0, 0, 0.04);
+    border-radius: 7px;
+    box-sizing: border-box;
+    cursor: pointer;
+    display: block;
+    font-family: arial;
+    margin-bottom: 15px;
+    margin-left: 30px;
+    margin-top: 19px;      
+    width: 62px;
+    color:#ffffff;
+}
