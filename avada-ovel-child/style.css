@@ -1,0 +1,59 @@
+/*
+ Theme Name:   Avada Child
+ Theme URI:    http://strangeoval.com/avada-child/
+ Description:  Avada Child Theme
+ Author:       Glenn Cope II
+ Author URI:   http://strangeoval.com
+ Template:     Avada
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  avada-child
+*/
+
+.fusion-title.title.fusion-title-size-two.fusion-border-below-title h2 {
+    font-size: 34px !important;
+    font-weight: 400 !important;
+}
+h2.originalcase {
+    font-size: 34px !important;
+}
+.woocommerce-Tabs-panel.woocommerce-Tabs-panel--description.panel.entry-content.panel_custom {
+    display: block !important;
+    margin: 0px;
+}
+
+
+
+ul#select2-billing_state-results li {
+    color: #000;
+}
+
+.single-product .woocommerce-message {
+    background-color: transparent !important;
+}
+
+.select2-container--default .select2-results__option--highlighted[aria-selected] {
+    background-color: #0073aa;
+    color: #fff !important;
+}
+
+@media (max-width:800px){
+.fusion-mobile-nav-item a {
+    color: #fff!important;
+}
+.fusion-mobile-nav-item .fusion-open-submenu {
+    color: #ccc!important;
+}
+.fusion-mobile-nav-item .fusion-open-submenu:hover {
+    color: #feb116!important;
+}
+.fusion-mobile-menu-icons a:before {
+    color: #555!important;
+}
+.fusion-mobile-menu-icons a:hover:before {
+    color: #feb116!important;
+}
+}
+
